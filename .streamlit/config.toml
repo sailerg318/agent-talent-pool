@@ -1,0 +1,34 @@
+[server]
+# 启用文件监视器缓存，减少重复扫描
+fileWatcherType = "auto"
+
+# 最大上传大小（MB）
+maxUploadSize = 200
+
+# 启用 CORS（如果需要）
+enableCORS = false
+
+# 启用 XSS 保护
+enableXsrfProtection = true
+
+[browser]
+# 收集使用统计（可选）
+gatherUsageStats = false
+
+[client]
+# 显示错误详情
+showErrorDetails = true
+
+# 工具栏模式
+toolbarMode = "minimal"
+
+[runner]
+# 快速重新运行
+fastReruns = true
+
+# 魔法命令启用
+magicEnabled = true
+
+[theme]
+# 使用自定义主题（已在 app.py 中定义）
+base = "dark"
